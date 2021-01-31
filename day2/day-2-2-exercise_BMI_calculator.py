@@ -1,0 +1,5 @@
+body_weight = input("enter your body weight(kg):")
+body_height = input("enter your body height(m):")
+BMI = float(body_weight) / ((float(body_height))**2)
+print(BMI)
+print(round(BMI, 2))
